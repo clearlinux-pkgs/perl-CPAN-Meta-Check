@@ -4,7 +4,7 @@
 #
 Name     : perl-CPAN-Meta-Check
 Version  : 0.012
-Release  : 9
+Release  : 10
 URL      : http://search.cpan.org/CPAN/authors/id/L/LE/LEONT/CPAN-Meta-Check-0.012.tar.gz
 Source0  : http://search.cpan.org/CPAN/authors/id/L/LE/LEONT/CPAN-Meta-Check-0.012.tar.gz
 Summary  : 'Verify requirements in a CPAN::Meta object'
@@ -51,7 +51,7 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/site_perl/5.22.0/CPAN/Meta/Check.pm
+/usr/lib/perl5/site_perl/5.24.0/CPAN/Meta/Check.pm
 
 %files doc
 %defattr(-,root,root,-)
