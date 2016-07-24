@@ -1,5 +1,8 @@
 Revision history for CPAN-Meta-Check
 
+0.013     2016-07-20 22:26:07+02:00 Europe/Amsterdam
+          Make tests more resilient against dev versions of dependencies
+
 0.012     2015-06-18 23:20:54+02:00 Europe/Amsterdam
           Drop dependency on Exporter 5.57
 
