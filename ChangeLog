@@ -1,5 +1,9 @@
 Revision history for CPAN-Meta-Check
 
+0.014     2016-11-25 13:09:01+01:00 Europe/Amsterdam
+          - Undef versions are now passed through to CPAN::Meta::Requirements
+            for the check, rather than failing with "Missing version" errors.
+
 0.013     2016-07-20 22:26:07+02:00 Europe/Amsterdam
           Make tests more resilient against dev versions of dependencies
 
@@ -10,7 +14,7 @@ Revision history for CPAN-Meta-Check
           Declare the minimum version required for the "merged_requirements" interface
 
 0.010     2015-01-30 19:10:49+01:00 Europe/Amsterdam
-          bump Module::Metdata prereq for $VERSION parsing (RT#101095)
+          bump Module::Metadata prereq for $VERSION parsing (RT#101095)
           Consistently require same version of CPAN::Meta::Requirements
 
 0.009     2014-06-20 19:37:43+02:00 Europe/Amsterdam
