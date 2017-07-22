@@ -4,13 +4,14 @@
 #
 Name     : perl-CPAN-Meta-Check
 Version  : 0.014
-Release  : 14
+Release  : 15
 URL      : http://search.cpan.org/CPAN/authors/id/L/LE/LEONT/CPAN-Meta-Check-0.014.tar.gz
 Source0  : http://search.cpan.org/CPAN/authors/id/L/LE/LEONT/CPAN-Meta-Check-0.014.tar.gz
 Summary  : 'Verify requirements in a CPAN::Meta object'
 Group    : Development/Tools
 License  : Artistic-1.0-Perl GPL-1.0
 Requires: perl-CPAN-Meta-Check-doc
+BuildRequires : perl(Test::Deep)
 
 %description
 This archive contains the distribution CPAN-Meta-Check,
@@ -29,6 +30,9 @@ doc components for the perl-CPAN-Meta-Check package.
 %setup -q -n CPAN-Meta-Check-0.014
 
 %build
+export http_proxy=http://127.0.0.1:9/
+export https_proxy=http://127.0.0.1:9/
+export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
 if test -f Makefile.PL; then
 %{__perl} Makefile.PL
@@ -52,7 +56,7 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/site_perl/5.24.0/CPAN/Meta/Check.pm
+/usr/lib/perl5/site_perl/5.26.0/CPAN/Meta/Check.pm
 
 %files doc
 %defattr(-,root,root,-)
