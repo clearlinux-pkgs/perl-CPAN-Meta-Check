@@ -75,7 +75,7 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.1/CPAN/Meta/Check.pm
+/usr/lib/perl5/vendor_perl/5.28.2/CPAN/Meta/Check.pm
 
 %files dev
 %defattr(-,root,root,-)
