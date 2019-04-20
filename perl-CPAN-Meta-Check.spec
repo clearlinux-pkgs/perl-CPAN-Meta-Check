@@ -4,10 +4,10 @@
 #
 Name     : perl-CPAN-Meta-Check
 Version  : 0.014
-Release  : 24
+Release  : 25
 URL      : http://search.cpan.org/CPAN/authors/id/L/LE/LEONT/CPAN-Meta-Check-0.014.tar.gz
 Source0  : http://search.cpan.org/CPAN/authors/id/L/LE/LEONT/CPAN-Meta-Check-0.014.tar.gz
-Summary  : 'Verify requirements in a CPAN::Meta object'
+Summary  : Verify requirements in a CPAN::Meta object
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
 Requires: perl-CPAN-Meta-Check-license = %{version}-%{release}
@@ -23,6 +23,7 @@ Verify requirements in a CPAN::Meta object
 Summary: dev components for the perl-CPAN-Meta-Check package.
 Group: Development
 Provides: perl-CPAN-Meta-Check-devel = %{version}-%{release}
+Requires: perl-CPAN-Meta-Check = %{version}-%{release}
 
 %description dev
 dev components for the perl-CPAN-Meta-Check package.
