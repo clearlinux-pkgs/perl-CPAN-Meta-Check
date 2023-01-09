@@ -1,5 +1,5 @@
 PKG_NAME := perl-CPAN-Meta-Check
-URL = http://search.cpan.org/CPAN/authors/id/L/LE/LEONT/CPAN-Meta-Check-0.014.tar.gz
+URL = https://cpan.metacpan.org/authors/id/L/LE/LEONT/CPAN-Meta-Check-0.017.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
