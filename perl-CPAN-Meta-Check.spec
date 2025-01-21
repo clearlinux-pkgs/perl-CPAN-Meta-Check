@@ -5,7 +5,7 @@
 #
 Name     : perl-CPAN-Meta-Check
 Version  : 0.018
-Release  : 44
+Release  : 45
 URL      : https://cpan.metacpan.org/authors/id/L/LE/LEONT/CPAN-Meta-Check-0.018.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/L/LE/LEONT/CPAN-Meta-Check-0.018.tar.gz
 Summary  : 'Verify requirements in a CPAN::Meta object'
